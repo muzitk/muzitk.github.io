@@ -569,24 +569,27 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.team-member {
+
+
+.about-me {
   margin-bottom: 50px;
-  text-align: center;
+  text-align: right;
 }
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
-}
+.about-me img {
+  width: 350px;
+  height: 350px;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+align-content: center}
 
-.team-member h4 {
+.about-me h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: aqua;
 }
 
-.team-member p {
+.about-me p {
   margin-top: 0;
 }
 
