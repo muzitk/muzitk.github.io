@@ -592,6 +592,9 @@ align-content: center}
 .about-me p {
   margin-top: 0;
 }
+.rows{
+display:inline;
+}
 
 section#contact {
   background-color: #212529;
