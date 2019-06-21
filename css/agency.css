@@ -598,7 +598,7 @@ display:inline;
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/contact.jpeg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -614,6 +614,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
+  display: block;
 }
 
 section#contact .form-group input.form-control {
@@ -694,4 +695,8 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.resume{
+  display: block;
 }
