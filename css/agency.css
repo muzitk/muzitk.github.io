@@ -569,36 +569,30 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-
-
-.about-me {
+.team-member {
   margin-bottom: 50px;
-  text-align: right;
+  text-align: center;
 }
 
-.about-me img {
-  width: 350px;
-  height: 350px;
-  border: 10px solid rgba(0, 0, 0, 0.1);
-align-content: center}
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
 
-.about-me h4 {
+.team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
-  color: aqua;
 }
 
-.about-me p {
+.team-member p {
   margin-top: 0;
-}
-.rows{
-display:inline;
 }
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/contact.jpeg");
+  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -614,7 +608,6 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
-  display: block;
 }
 
 section#contact .form-group input.form-control {
@@ -695,8 +688,4 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
-}
-
-.resume{
-  display: block;
 }
